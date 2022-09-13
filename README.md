@@ -1,0 +1,1 @@
+Practice by making site using layout. The layout file is located in a 'temp' folder.
