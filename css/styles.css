@@ -877,3 +877,258 @@ h1, h2, h3, h4, h5 {
         left: 540px;
     }
 }
+
+@media (max-width: 1600px) {
+
+    /* Header */
+    .cities {
+        margin-right: 30px;
+    }
+
+    .header__nav {
+        margin-right: 25px;
+    }
+    
+    .nav__link {
+        margin-right: 25px;
+    }
+
+    /* Between Blocks */
+    .gradient__cirle {
+        display: none;
+    }
+
+    /* Cost */
+    .cost__background {
+        left: 445px;
+    }
+
+    /* Trust */
+    .trust__gradient {
+        display: none;
+    }
+}
+
+@media (max-width: 1560px) {
+    
+    /* Main */
+    .main__inner {
+        margin-bottom: 100px;
+        height: 75vh;
+    }
+    
+    .main__info {
+        left: 450px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .main__location {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    
+    .main__description {
+        font-size: 22px;
+        margin-bottom: 25px;
+        line-height: 2;
+    }
+    
+    .main__subdescription {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .supbtn {
+        margin: 0 auto;
+        width: 224px;
+        height: 90px;
+    }
+    
+    .main__btn {
+        width: 192px;
+        height: 60px;
+        font-size: 14px;
+    }
+    
+    .main__feedback {
+        top: 605px;
+        left: 290px;
+        width: 240px;
+        height: 260px;
+    }
+
+    .main__nums {
+        font-size: 24px;
+    }
+
+    /* Customer Development */
+    .custdev__image {
+        display: none;
+    }
+
+    /* Course */
+    .course {
+        margin: 0 0 50px 150px;
+    }
+
+    .course__description {
+        margin-bottom: 10px;
+    }
+
+    /* Result */
+    .result__inner {
+        width: 950px;
+        margin-left: 60px;
+    }
+
+    .result__title {
+        padding-top: 0px;
+        font-size: 20px;
+    }
+
+    /* Trust */ 
+    .trust {
+        margin-bottom: 10px;
+    }
+
+    .trust__inner {
+        text-align: center;
+    }      
+
+    .trust__title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .trust__promo {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .trust__movie img {
+        width: 70%;
+    }
+
+    .trust__card {
+        width: 70%;
+        box-shadow: none;
+    }
+
+    .trust__name {
+        font-size: 50px;
+    }
+
+    .trust__prof {
+        font-size: 30px;
+    }
+    
+    .trust__groups {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    .trust__group {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    
+    .trust__icon {
+        margin: 0;
+    }
+
+    .trust__icon__two {
+        left: 120px;
+    }
+
+    /* Flow */
+    .flow {
+        margin-bottom: 40px;
+    }
+    
+    /* Cost */
+    .cost__inner {
+        padding-top: 0px;
+    }
+
+    .cost__gradient {
+        display: none;
+    }
+
+    .cost__background {
+        display: none;
+    }
+
+    .cost__inner {
+        margin-bottom: 80px;
+    }
+
+    .cost__title {
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+    .footer__inner, 
+    .footer__info {
+        justify-content: center;
+    }
+
+    .footer__cities,
+    .footer__rights {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1400px) {
+    
+    /* Header */
+    .header {
+        text-align: center;
+    }
+
+    .header__top {
+        display: inline-block;
+        width: 700px;
+    }
+
+    .cities {
+        margin-bottom: 15px;
+    }
+
+    .cities a:first-child {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    /* Course */
+    .course {
+        margin-bottom: 10px;
+    }
+
+    /* Result */
+    .result {
+        height: 60vh;
+    }
+    .result__inner {
+        padding-top: 25px;
+        margin: 0 auto;
+    }
+
+    .result__title {
+        color: #000;
+        text-align: center;
+        font-size: 32px;
+    }
+}
+
+/* @media (max-width: 1160px) {
+
+} */
