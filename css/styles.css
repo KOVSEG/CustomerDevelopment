@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5 {
 .custdev {
     background: url('../images/custdev/custdev1_bg.jpg') no-repeat;
     background-size: cover;
-    height: 65vh;
+    height: 55vh;
     margin-bottom: 100px;
     padding-top: 0;
 }
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .custdev__title {
-    padding-top: 120px;
+    margin-top: 35px;
     margin-bottom: 100px;
     font-size: 30px;
     font-weight: 700;
@@ -292,8 +292,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Course */
-.course__inner {
-    margin-bottom: 100px;
+.course  {
+    margin-bottom: 50px;
 }
 
 .course__intro {
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5 {
 
 .course__description {
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 15px;
 }
 
 .course__items {
@@ -366,20 +366,16 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 60px;
 }
 
-.result__inner {
-    padding-top: 150px;
-}
-
 .result {
     background: url('../images/result/result_bg.jpg') no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-size: cover;
     margin-bottom: 120px;
 }
 
 .result__title {
-    padding-top: 20px;
+    padding-top: 28px;
     margin: 0 0 40px 20px;
     font-size: 30px;
     font-weight: 700;
@@ -441,7 +437,7 @@ h1, h2, h3, h4, h5 {
     font-size: 30px;
     font-weight: 700;
     color: #000;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .trust__promo {
@@ -540,7 +536,7 @@ h1, h2, h3, h4, h5 {
 
 /* Flow */
 .flow {
-    padding-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .flow__title {
@@ -597,7 +593,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .cost__inner {
-    padding-top: 100px;
     text-align: center;
     margin-bottom: 250px;
 }
@@ -781,17 +776,17 @@ h1, h2, h3, h4, h5 {
 
     /* Main */
     .main__inner {
-        margin-bottom: 30px;
+        height: 100vh;
+        margin-bottom: 50px;
     }
 
     .main__images {
-        height: 90vh;
+        height: 1010px;
     }
 
     /* Customer Development */
     .custdev {
         background-size: cover;
-        height: 40vh;
         margin-bottom: 10px;
     }
     
@@ -800,7 +795,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .custdev__title {
-        padding-top: 70px;
+        margin-top: 35px;
         margin-bottom: 40px;
         font-size: 25px;
     }
@@ -813,17 +808,15 @@ h1, h2, h3, h4, h5 {
     /* Result */
     .result {
         background-size: contain;
-        height: 70vh;
         margin-bottom: 20px;
     }
 
     .result__inner {
-        width: 950px;
-        padding-top: 100px;
+        width: 1100px;
+        padding-top: 75px;
     }
 
     .result__title {
-        padding-top: 5px;
         margin: 0 0 20px 20px;
         font-size: 25px;
         font-weight: 700;
@@ -879,7 +872,6 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (max-width: 1600px) {
-
     /* Header */
     .cities {
         margin-right: 30px;
@@ -893,6 +885,26 @@ h1, h2, h3, h4, h5 {
         margin-right: 25px;
     }
 
+    /* Customer Development */
+    .custdev {
+        margin-bottom: 50px;
+    }
+
+    /* Course */
+    .course__inner {
+        margin-bottom: 80px;
+    }
+
+    /* Result */
+    .result {
+        margin-bottom: 50px;
+    }
+
+    .result__title {
+        margin: 0 0 20px 90px;
+        padding-top: 0;
+    }
+
     /* Between Blocks */
     .gradient__cirle {
         display: none;
@@ -900,7 +912,13 @@ h1, h2, h3, h4, h5 {
 
     /* Cost */
     .cost__background {
-        left: 445px;
+        top: 50px;
+        left: 430px;
+    }
+
+    .cost__gradient {
+        left: -40px;
+        top: 480px;
     }
 
     /* Trust */
@@ -914,24 +932,21 @@ h1, h2, h3, h4, h5 {
     /* Main */
     .main__inner {
         margin-bottom: 50px;
-        height: 75vh;
+        height: 100vh;
+    }
+
+    .main__images {
+        height: 1010px;
     }
     
     .main__info {
-        left: 450px;
-        width: 350px;
+        left: 650px;
         text-align: center;
     }
 
-    .main__location {
-        font-size: 14px;
-        margin-bottom: 25px;
-    }
-    
     .main__description {
-        font-size: 22px;
-        margin-bottom: 25px;
-        line-height: 2;
+        font-size: 35px;
+        margin-bottom: 50px;
     }
     
     .main__subdescription {
@@ -963,6 +978,10 @@ h1, h2, h3, h4, h5 {
     }
 
     /* Customer Development */
+    .custdev__inner {
+        display: inline-block;
+    }
+
     .custdev__image {
         display: none;
     }
@@ -1018,11 +1037,11 @@ h1, h2, h3, h4, h5 {
     }
 
     .trust__name {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .trust__prof {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .trust__groups {
@@ -1084,7 +1103,6 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (max-width: 1400px) {
-    
     /* Header */
     .header {
         text-align: center;
@@ -1108,24 +1126,65 @@ h1, h2, h3, h4, h5 {
         display: none;
     }
 
-    /* Course */
-    .course {
-        margin-bottom: 10px;
+    /* Result */
+    .result {
+        width: 100%;
+        height: 70vh;
+        margin-bottom: 80px;
+    }
+
+    .result__inner {
+        margin-left: 135px;
+        padding-top: 50px;
+    }
+
+    .result__title {
+        margin: 0 0 20px 20px;
+    }
+
+    .result__items {
+        height: 450px;
+    }
+
+    .result__item {
+        width: 450px;
+        height: 210px;
+        padding: 0 0 0 115px;
+    }
+}
+
+@media (max-width: 1205px) {
+    /* Main */
+    .main__info {
+        left: 450px;
     }
 
     /* Result */
     .result {
-        height: 60vh;
+        width: 100%;
+        height: 70vh;
     }
+
     .result__inner {
-        padding-top: 25px;
-        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .result__inner {
+        margin-left: 130px;
     }
 
     .result__title {
-        color: #000;
-        text-align: center;
-        font-size: 32px;
+        margin: 0 0 20px 20px;
+    }
+
+    .result__items {
+        height: 450px;
+    }
+
+    .result__item {
+        width: 450px;
+        height: 210px;
+        padding: 0 0px 0px 115px;
     }
 }
 
@@ -1136,10 +1195,6 @@ h1, h2, h3, h4, h5 {
     }
 
     /* Customer Development */
-    .custdev {
-        height: 30vh;
-    }
-
     .custdev__title {
         padding-top: 40px;
         margin-bottom: 25px;
@@ -1160,14 +1215,13 @@ h1, h2, h3, h4, h5 {
 
     /* Result */
     .result {
-        height: 45vh;
-    }
-
-    .result__inner {
-        padding: 0;
+        width: 100%;
+        height: 70vh;
+        margin-bottom: 30px;
     }
 
     .result__items {
+        margin: 0;
         width: 770px;
         height: 400px;
     }
@@ -1175,18 +1229,23 @@ h1, h2, h3, h4, h5 {
     .result__item {
         width: 350px;
         height: 180px;
-        padding: 5px;
+        padding: 5px 0 0 65px;
         text-align: center;
         font-size: 12px;
     }
 
     .result__image {
-        display:  none;
+        top: 15px;
+        left: 15px;
     }
 
     .result__text {
-        font-size: 14px;
-        line-height: 1.2;
+        font-size: 13px;
+        line-height: 1.1;
+    }
+
+    .result__subtext {
+        padding: 0 0 0 15px;
     }
 
     /* Trust */
@@ -1238,6 +1297,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+/* Next step to fix mistakes from 1160 to 980 px */
 @media (max-width: 980px) {
     /* Main */
     .header {
